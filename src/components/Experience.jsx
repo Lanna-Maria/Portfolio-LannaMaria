@@ -57,6 +57,13 @@ export function Experience() {
 
   const academicEducation = [
     {
+      institution: 'Universidade Federal do Ceará (UFC) – Campus Sobral',
+      degree: 'Mestrado em Engenharia Elétrica e de Computação ',
+      period: '2026 - Atual',
+      description:
+        'Mestrado acadêmico na área de Sistemas de Informação, com linha de pesquisa em Engenharia de Software e Qualidade de Software.',
+    },
+    {
       institution: 'Instituto Federal do Ceará (IFCE) – Campus Tianguá',
       degree: 'Bacharelado em Ciência da Computação',
       period: '2021 - 2025',

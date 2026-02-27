@@ -68,9 +68,10 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <p className="mb-4 text-gray-300">
-              🎓 Graduada em Ciência da Computação, sou Desenvolvedora Full
-              Stack Júnior, com ênfase em Engenharia de Software,
-              desenvolvimento de sistemas e Machine Learning.
+              🎓 Mestranda em Engenharia Elétrica e de Computação e graduada em
+              Ciência da Computação, atuo como Desenvolvedora Full Stack Júnior,
+              com ênfase em Engenharia de Software, desenvolvimento de sistemas
+              e aplicações com Machine Learning..
             </p>
 
             <p className="mb-4 text-gray-300">
@@ -93,8 +94,9 @@ export function About() {
           >
             {[
               {
-                label: 'Formação',
-                value: 'Graduação em Ciência da Computação',
+                label: 'Formação Acadêmica',
+                value:
+                  'Mestranda em Engenharia Elétrica e de Computação | Bacharela em Ciência da Computação',
               },
               {
                 label: 'Experiência',
