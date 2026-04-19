@@ -6,8 +6,6 @@ import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 
-import { Download } from 'lucide-react';
-
 export function About() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);

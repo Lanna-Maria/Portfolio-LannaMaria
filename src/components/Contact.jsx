@@ -6,12 +6,8 @@ import {
   Mail,
   Phone,
   MapPin,
-  Download,
   FileText,
 } from 'lucide-react';
-
-import { useState } from 'react';
-import { toast } from 'sonner';
 
 export function Contact() {
   return (
@@ -62,7 +58,7 @@ export function Contact() {
                 >
                   <FileText className="w-5 h-5" />
                   <span className="text-sm font-medium">
-                    Lattes (acadêmico)
+                    Perfil acadêmico(Lattes)
                   </span>
                 </a>
               </div>
