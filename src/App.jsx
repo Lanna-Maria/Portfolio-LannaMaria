@@ -12,12 +12,12 @@ export default function App() {
     <div className="min-h-screen overflow-x-hidden bg-black w-full">
       <Header />
       <Hero />
-      <About />
-      <Experience />
       <Projects />
+      <Experience />
+      <Toaster />
+      <About />
       <Contact />
       <Footer />
-      <Toaster />
     </div>
   );
 }

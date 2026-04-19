@@ -28,16 +28,16 @@ export function About() {
   }, []);
 
   const skills = {
-    frontend: ['React', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap5', 'Axios'],
+    frontend: ['React', 'HTML5', 'CSS3', 'Bootstrap5', 'Axios'],
     backend: ['Node.js', 'Express', 'PostgreSQL', 'API RESTful', 'Prisma'],
-    linguagensDeProgramacao: ['Python'],
+    linguagensDeProgramacao: ['Python', 'JavaScript'],
     ferramentasControle: [
-      'VS Code',
-      'Figma',
-      'Insomnia',
-      'npm',
       'Git',
       'GitHub',
+      'VS Code',
+      'Insomnia',
+      'npm',
+      'Figma',
     ],
   };
 
@@ -68,21 +68,27 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <p className="mb-4 text-gray-300">
-              🎓 Mestranda em Engenharia Elétrica e de Computação e graduada em
-              Ciência da Computação, atuo como Desenvolvedora Full Stack Júnior,
-              com ênfase em Engenharia de Software, desenvolvimento de sistemas
-              e aplicações com Machine Learning..
+              Sou desenvolvedora Full Stack com foco em aplicações web modernas
+              utilizando React, Node.js e JavaScript. Possuo experiência no
+              desenvolvimento de interfaces responsivas, APIs REST e integração
+              com bancos de dados.
             </p>
 
             <p className="mb-4 text-gray-300">
-              Atuo no desenvolvimento de aplicações full stack, tanto no
-              front-end quanto no back-end, possuo noções de Machine Learning
-              adquiridas durante a graduação em projetos acadêmicos.
+              Atuo na construção de sistemas completos, do front-end ao
+              back-end, com foco em qualidade de código, código limpo e
+              performance.;
             </p>
 
             <p className="text-gray-300">
-              🚀 Busco uma oportunidade para aplicar e expandir meus
-              conhecimentos, sempre focando em código limpo e boas práticas.
+              Atualmente, sou mestranda em Engenharia Elétrica e de Computação e
+              graduada em Ciência da Computação, o que fortalece minha base
+              teórica e capacidade de resolver problemas complexos.
+            </p>
+
+            <p className="text-gray-300">
+              Busco oportunidade como desenvolvedora para aplicar e expandir
+              minhas habilidades.
             </p>
           </motion.div>
 

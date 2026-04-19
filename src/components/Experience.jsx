@@ -27,11 +27,11 @@ export function Experience() {
       company: 'Robótica Sustentável',
       position: 'Estágio em Desenvolvimento Full Stack',
       period: 'Out 2025 - Dez 2025',
-      description:
-        'Atuação no desenvolvimento de aplicações web full stack, com foco em boas práticas, arquitetura escalável e integração entre front-end e back-end.',
       achievements: [
-        'Desenvolvimento de interfaces responsivas utilizando React, integração de APIs RESTful e manipulação de dados com Axios e Prisma.',
-        'Experiência com bancos de dados relacionais, Git e GitHub, atuando em ambientes com metodologias ágeis e colaboração em equipe.',
+        'Atuação no desenvolvimento de aplicação web full stack com integração entre front-end e back-end utilizando React, Node.js e Prisma',
+        'Criação de interfaces responsivas e integração com APIs REST',
+        'Manipulação de dados com Axios e integração com banco de dados relacional',
+        'Utilização de Git/GitHub e colaboração em equipe com metodologias ágeis',
       ],
     },
     {
@@ -39,13 +39,12 @@ export function Experience() {
         'Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)',
       position: 'Programação e Desenvolvimento',
       period: '2021 - 2025',
-      description:
-        'Atuação em projetos acadêmicos de desenvolvimento de software.',
       achievements: [
-        'Participação em projetos acadêmicos e práticos voltados ao desenvolvimento web, análise de sistemas e soluções tecnológicas.',
-        'Aplicação de conceitos de Programação Orientada a Objetos, SQL, Engenharia de Software, Computação Gráfica, IHC, Inteligência Artificial e Aprendizado de Máquina.',
-        'Desenvolvimento de interfaces e aplicações centradas no usuário, utilizando boas práticas de codificação e versionamento com Git.',
+        'Desenvolvimento de aplicações web e sistemas acadêmicos',
+        'Aplicação de conceitoe de programação e versionamento com Git',
+        'Participação em projetos de pesquisa voltados à resolução de problemas reais',
       ],
+
       academicLinks: [
         {
           label: 'Currículo Lattes',
@@ -60,15 +59,11 @@ export function Experience() {
       institution: 'Universidade Federal do Ceará (UFC) – Campus Sobral',
       degree: 'Mestrado em Engenharia Elétrica e de Computação ',
       period: '2026 - Atual',
-      description:
-        'Mestrado acadêmico na área de Sistemas de Informação, com linha de pesquisa em Engenharia de Software e Qualidade de Software.',
     },
     {
       institution: 'Instituto Federal do Ceará (IFCE) – Campus Tianguá',
       degree: 'Bacharelado em Ciência da Computação',
       period: '2021 - 2025',
-      description:
-        'Foco em desenvolvimento de software, engenharia de software e resolução de problemas computacionais, com base sólida em algoritmos, estruturas de dados e boas práticas de programação.',
     },
   ];
 
@@ -77,15 +72,16 @@ export function Experience() {
       institution: 'Capacita Brasil – UECE',
       degree: 'Extensão Universitária em Desenvolvimento Full Stack',
       period: 'Jan 2025 - Dez 2025',
-      description:
-        'Curso de 1 ano com formação teórica e prática em desenvolvimento front-end e back-end, incluindo estágio com projetos reais. Envolve o uso de tecnologias modernas como React, Node.js e bancos de dados relacionais, preparando para atuação profissional no desenvolvimento web full stack.',
+      achievements: [
+        'Formação prática em React, Node.js e bancos de dados',
+        'Desenvolvimento de projetos reais com aplicação profissional',
+      ],
     },
   ];
-
   const languages = [
     { name: 'Português', level: 'Nativo' },
     { name: 'Espanhol', level: 'Intermediário' },
-    { name: 'Inglês', level: 'Básico' },
+    { name: 'Inglês', level: 'Básico em evolução' },
   ];
 
   return (
@@ -132,8 +128,6 @@ export function Experience() {
                         <span className="text-gray-500">{exp.period}</span>
                       </div>
                     </div>
-
-                    <p className="text-gray-400 mb-3">{exp.description}</p>
 
                     <ul className="space-y-1">
                       {exp.achievements.map((ach, idx) => (

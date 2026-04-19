@@ -8,9 +8,9 @@ export function Hero() {
   const [displayedText, setDisplayedText] = useState('');
 
   const fullText = 'Lanna Maria';
-  const fullRole = 'Desenvolvedora Full Stack Júnior';
+  const fullRole = 'Desenvolvedora Full Stack | React • Node.js • JavaScript';
   const fullDescription =
-    'Focada em construir soluções completas, desde o back-end até a interface do usuário.';
+    'Desenvolvo aplicações web completas, integração de APIs e interfaces responsivas com foco na experiência do usuário. Disponível para oportunidades de trabalho e projetos freelance';
 
   useEffect(() => {
     let textIndex = 0;
@@ -65,10 +65,12 @@ export function Hero() {
           animate={{ scale: 1, rotate: 0 }}
           transition={{ duration: 0.8, type: 'spring' }}
         >
-          <div className="p-1 rounded-full bg-black/70 backdrop-blur-sm">
+          <div className="p-1 rounded-full">
             <motion.div
-              className="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden border border-white/10 shadow-lg bg-black"
-              whileHover={{ scale: 1.03 }}
+              className="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden 
+               border-2 border-purple-500/40 
+               shadow-xl shadow-purple-500/20 bg-black"
+              whileHover={{ scale: 1.05 }}
             >
               <img
                 src={perfil}
@@ -134,22 +136,6 @@ export function Hero() {
             className="bg-purple-600 hover:bg-purple-700"
           >
             Ver Projetos
-          </Button>
-
-          <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className="border-purple-400 text-purple-400 hover:bg-purple-600 hover:text-white"
-          >
-            <a
-              href="/portifolio-Lanna/files/curriculo-Lanna.pdf"
-              download="Curriculo-Lanna-Maria.pdf"
-              type="application/pdf"
-            >
-              <Download className="w-4 h-4 mr-2" />
-              Baixar CV
-            </a>
           </Button>
         </motion.div>
 

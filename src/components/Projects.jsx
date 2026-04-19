@@ -44,68 +44,36 @@ export function Projects() {
 
   const projects = [
     {
-      title: 'ProjetoFullStack-Cafe-do-amanha',
+      title: '☕ Sistema Full Stack – Cafeteria Gourmet',
       description:
-        'Aplicação FullStack em React.js, Axios, Node.js, PostgreSQL e Prisma ORM. O projeto oferece uma página inicial que apresenta o conceito poético do café, permite visualizar cardápios e produtos, realizar pedidos de forma interativa, integra frontend e backend e conta com interface responsiva para dispositivos mobile e desktop.',
+        'Aplicação web full stack para pedidos online e gerenciamento de produtos e pedidos, integrando front-end e back-end por meio REST. Possui controle de status, interface responsiva e versionamento de código com Git.',
       image: cafeDoAmanha,
-      tags: [
-        'React.js',
-        'Node.js',
-        'JavaScript',
-        'PostgreSQL',
-        'PrismaORM',
-        'Axios',
-      ],
-      github:
-        'https://github.com/Lanna-Maria/ProjetoFullStack-Cafe-do-amanha.git',
+      tags: ['React.js', 'Node.js', 'PostgreSQL', 'Prisma', 'Axios'],
+      github: 'https://github.com/Lanna-Maria/EstudosEspeciais.git',
     },
     {
-      title: 'PetShopFeliz Website (Versão React)',
+      title: '🐾 PetShop Feliz (React)',
       description:
-        'Aplicação web desenvolvida em equipe utilizando React. O projeto consistiu na criação de um site moderno, responsivo e funcional para um PetShop fictício, simulando uma aplicação real com React e bibliotecas auxiliares. Este projeto foi realizado durante o curso de Extensão Universitária em Desenvolvimento Full Stack, pelo programa Residência em TIC 20 – Capacita Brasil (UECE), módulo intermediário.',
+        'Aplicação web responsiva simulando um sistema de petshop, com navegação entre páginas, gerenciamento de estado e organização de serviços. Foco em experiência do usuário e estrutura de aplicação front-end moderna.',
       image: petShop,
-      tags: [
-        'React',
-        'React Router DOM',
-        'React Toastify',
-        'Context API',
-        'Bootstrap',
-        'HTML5',
-        'CSS3',
-        'JavaScript (ES6+)',
-      ],
+      tags: ['React', 'React Router', 'Context API', 'Bootstrap'],
       github: 'https://github.com/Lanna-Maria/projeto-pet-shop-frontend.git',
       demo: 'https://lanna-maria.github.io/projeto-pet-shop-frontend/',
     },
     {
-      title: 'Api de Cadastro de Alunos',
+      title: '📚 API de Cadastro de Alunos',
       description:
-        'API RESTful em Node.js, Express, PostgreSQL e Prisma ORM. Segue o padrão MVC (Model-View-Controller) e fornece uma API RESTful para gerenciar alunos e professores de uma escola.',
+        'API REST desenvolvida em Node.js com arquitetura MVC para gerenciamento de alunos e professores. Implementa operações CRUD, integração com banco de dados PostgreSQL e organização estruturada do backend.',
       image: apiAlunos,
-      tags: ['Node.js', 'Express', 'PostgreSQL', 'PrismaORM', 'Insomia'],
+      tags: ['Node.js', 'Express', 'PostgreSQL', 'Prisma'],
       github: 'https://github.com/Lanna-Maria/cadastro-de-alunos-backend.git',
     },
     {
-      title: 'Projetos Acadêmicos',
+      title: '🎓 Projetos Acadêmicos',
       description:
-        'Projetos acadêmicos realizados ao longo do curso de Bacharelado em Ciência da Computação, abordando diferentes áreas da computação e suas aplicações práticas.',
+        'Conjunto de projetos desenvolvidos durante a graduação em Ciência da Computação, envolvendo desenvolvimento web, programação e resolução de problemas. Inclui aplicações práticas utilizando diferentes tecnologias.',
       image: academicos,
-      tags: [
-        'C',
-        'Python',
-        'JavaScript',
-        'Java',
-        'OpenGL',
-        'MachineLearning',
-        'LLMs',
-        'PHP',
-        'Laravel',
-        'Bootstrap',
-        'HTML5',
-        'CSS3',
-        'MySQL',
-        'Socket.io',
-      ],
+      tags: ['JavaScript', 'Python', 'Java', 'PHP', 'MySQL'],
       github: 'https://github.com/Lanna-Maria/projetos-academicos.git',
     },
   ];

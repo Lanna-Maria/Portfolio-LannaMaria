@@ -16,9 +16,13 @@ export function Header() {
 
   const navItems = [
     { id: 'inicio', label: 'Início', href: '#inicio' },
-    { id: 'sobre', label: 'Sobre', href: '#sobre' },
-    { id: 'experiencia', label: 'Experiência', href: '#experiencia' },
     { id: 'projetos', label: 'Projetos', href: '#projetos' },
+    {
+      id: 'experiencia',
+      label: 'Experiência e Formação',
+      href: '#experiencia',
+    },
+    { id: 'sobre', label: 'Sobre', href: '#sobre' },
     { id: 'contato', label: 'Contato', href: '#contato' },
   ];
 
