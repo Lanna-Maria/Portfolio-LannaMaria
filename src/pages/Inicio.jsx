@@ -10,7 +10,7 @@ export function Inicio() {
 
   const fullText = 'Lanna Maria';
   const fullRole =
-    'Desenvolvedora Full Stack | Engenharia de Software • React • Node.js • JavaScript • SQL • Machine Learning';
+    'Desenvolvedora Full Stack • React • Node.js • JavaScript | Engenharia de Software | Machine Learning';
 
   const fullDescription =
     'Desenvolvo aplicações web completas com foco em engenharia de software, integração de APIs, interfaces responsivas e experiência do usuário. Também possuo experiência com dados e Machine Learning em projetos acadêmicos e pessoais. Disponível para oportunidades de trabalho e projetos freelance.';
@@ -112,7 +112,7 @@ export function Inicio() {
           </motion.span>
 
           <span>
-            Olá, eu sou{' '}
+            Olá, me chamo{' '}
             <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
               {displayedText}
               <span className="animate-pulse">|</span>
@@ -232,7 +232,7 @@ export function Inicio() {
       {/* Scroll */}
       <button
         onClick={() => scrollToSection('projetos')}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 animate-bounce md:block"
       >
         <HiOutlineArrowDown className="h-8 w-8 text-purple-400" />
       </button>

@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/Portfolio-LannaMaria/',
-  plugins: [react(), tailwindcss()],
+  plugins: [react()],
 });
