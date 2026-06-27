@@ -1,4 +1,4 @@
-# 💜 Portfólio Profissional | Lanna Maria
+# Portfólio Profissional | Lanna Maria
 
 <p align="center">
 
@@ -8,7 +8,7 @@
 
 Construo aplicações web modernas, responsivas e escaláveis, integrando Front-end, Back-end e APIs REST. Também desenvolvo projetos envolvendo Ciência de Dados e Machine Learning.
 
-### 🚀 Acesse o Portfólio
+### 🚀 Acesse o Portfólio online
 
 **🌐 https://lanna-maria.github.io/Portfolio-LannaMaria/**
 
@@ -34,34 +34,6 @@ O objetivo é apresentar meu trabalho de forma profissional, destacando soluçõ
 
 ---
 
-## 🚀 Tecnologias
-
-### Front-end
-
-* React.js
-* JavaScript (ES6+)
-* Vite
-* Tailwind CSS
-* Framer Motion
-
-### Back-end
-
-* Node.js
-* Express.js
-* Prisma ORM
-
-### Banco de Dados
-
-* PostgreSQL
-
-### Ferramentas
-
-* Git
-* GitHub
-* GitHub Pages
-* VS Code
-
----
 
 ## ✨ Funcionalidades
 
@@ -97,45 +69,6 @@ src
 └── main.jsx
 ```
 
----
-
-## ⚙ Como executar
-
-Clone o projeto
-
-```bash
-git clone https://github.com/Lanna-Maria/Portfolio-LannaMaria.git
-```
-
-Entre na pasta
-
-```bash
-cd Portfolio-LannaMaria
-```
-
-Instale as dependências
-
-```bash
-npm install
-```
-
-Execute
-
-```bash
-npm run dev
-```
-
-Build
-
-```bash
-npm run build
-```
-
----
-
-## 🌎 Acesse online
-
-👉 **https://lanna-maria.github.io/Portfolio-LannaMaria/**
 
 ---
 
