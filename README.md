@@ -24,16 +24,6 @@ O objetivo é apresentar meu trabalho de forma profissional, destacando soluçõ
 
 ---
 
-## 📸 Preview
-
-> Adicione uma captura de tela do seu portfólio.
-
-```md
-![Preview](./src/assets/img/preview.png)
-```
-
----
-
 
 ## ✨ Funcionalidades
 
@@ -89,3 +79,5 @@ https://github.com/Lanna-Maria
 ---
 
 ⭐ Se este projeto foi interessante para você, deixe uma estrela no repositório!
+
+Desenvolvido por Lanna Maria!
